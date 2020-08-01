@@ -1,0 +1,151 @@
+        #header {
+            font-family: 'Do Hyeon', sans-serif;
+            margin: 0;
+            padding-top: 19px;
+            -webkit-text-stroke: 0.3px white;
+            color: hsl(140, 77%, 12%);
+        }
+        
+        h1 {
+            font-size: 4.5rem!important;
+        }
+        
+        #header {
+            background-size: cover;
+            text-align: center;
+            background-image: url(images/fondobaner.jpg);
+            background-position: center;
+            top: 44px;
+            padding: 41px;
+            margin-right: 15%;
+            margin-left: 15%;
+            margin-top: 25px;
+            background-position: center;
+            height: 205px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 27px;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        #linea {
+            -webkit-text-stroke: 0.3px green;
+            color: black;
+        }
+        
+        .servicios {
+            margin-top: 5%;
+            font-family: 'Roboto Slab', serif;
+            border-color: gray;
+            color: hsl(140, 77%, 12%);
+        }
+        
+        .span {
+            padding-top: 8px;
+            font-size: 238%;
+            color: rgb(114, 114, 114);
+            float: left;
+            margin-right: 32px;
+        }
+        
+        .span:hover {
+            color: indigo;
+            opacity: .7;
+            padding-top: 0;
+            transition: 0.6s ease;
+        }
+        
+        .avatar {
+            width: 40px;
+            /* box-shadow: 0 1px 2px rgba(165, 100, 143, 0.2); */
+            border: rgb(86, 79, 87) 0.5px solid;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.603);
+            border-radius: 80%;
+            right: 20%;
+            padding: 1px;
+        }
+        
+        .fotos {
+            padding-right: 10rem!important;
+            padding-left: 10rem!important;
+        }
+        
+        .fotoHombre {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/hombres.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            padding: 150px 3px;
+            margin-top: 3%;
+        }
+        
+        .botonHombre {
+            color: white!important;
+            background: linear-gradient(#7fa5d4, #167FFB);
+            transition: background 0.3s ease;
+            border: 1px solid #0e4c99;
+        }
+        
+        .botonHombre:hover {
+            background: linear-gradient(#147EFF, #0F67DA);
+            color: white;
+        }
+        
+        .fotoMujer {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/mujeres.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            padding: 150px 0;
+            margin-top: 3%;
+            display: block;
+        }
+        
+        .botonMujer {
+            color: white!important;
+            background: linear-gradient(#9b056e, #580438);
+            transition: background 0.3s ease;
+            border: 1px solid #751140;
+        }
+        
+        .botonMujer:hover {
+            background: linear-gradient(#633056, #8b3b77);
+            color: white;
+        }
+        
+        .fotos {
+            margin-bottom: 6%;
+        }
+        
+        .form {
+            background-color: rgb(247, 246, 241);
+            margin-top: 6%;
+            text-align: center;
+            width: 672px;
+            margin-bottom: 20%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-right: 2%;
+            padding-left: 2%;
+        }
+        
+        #footer {
+            color: white;
+            background-color: black;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 46px;
+        }
+        
+        #footer a {
+            color: lightgrey;
+            font-size: 15px;
+        }
+        
+        #footer a:hover {
+            color: white;
+        }
