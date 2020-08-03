@@ -1,7 +1,7 @@
 let email = document.querySelector("#email");
 let formulario = document.querySelector("#formulario")
 let emailHelp = document.querySelector("#emailHelp")
-console.log(formulario)
+
 
 formulario.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -9,6 +9,9 @@ formulario.addEventListener("submit", (event) => {
     if (email.value === "") {
         setTimeout(validateMail, 0)
         setTimeout(validateMailDefault, 3000)
+    } else {
+        email.value = ""
+        $('#myModal').modal('show')
     }
 
 })
