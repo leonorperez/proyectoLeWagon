@@ -128,6 +128,11 @@
             padding-left: 2%;
         }
         
+        #emailHelp {
+            display: none;
+            color: red;
+        }
+        
         #footer {
             color: white;
             background-color: black;
