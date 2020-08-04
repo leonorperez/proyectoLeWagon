@@ -153,6 +153,10 @@
         /*******************************900px**********************************************/
         
         @media screen and (max-width: 700px) {
+            #header {
+                margin-right: 0;
+                margin-left: 0;
+            }
             #linea {
                 display: none;
             }
